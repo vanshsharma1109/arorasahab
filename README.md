@@ -3,139 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Happy Birthday Aanya! 🎉</title>
+  <title>To Radhika, from Vansh</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #ffccff, #b3e0ff);
+      background: linear-gradient(to bottom right, #ffe6f0, #d1c4e9);
       color: #333;
-      text-align: center;
+      padding: 20px;
     }
 
     .container {
-      max-width: 800px;
-      margin: 60px auto;
+      max-width: 600px;
+      margin: auto;
+      background: white;
       padding: 20px;
-      background-color: white;
-      border-radius: 20px;
-      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
-      color: #d81b60;
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      color: #7b1fa2;
-      margin-top: 0;
+      text-align: center;
+      color: #c2185b;
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 18px;
       line-height: 1.6;
-      margin: 20px 0;
+      margin: 15px 0;
     }
 
-    .cake {
-      font-size: 5em;
-      margin: 20px 0;
-    }
-
-    .image-container {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
+    label {
+      display: block;
       margin-top: 20px;
+      font-weight: bold;
     }
 
-    .image-container img {
-      width: 300px;
-      height: auto;
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
       border-radius: 10px;
-      border: 2px solid #ff80ab;
+      border: 1px solid #ccc;
+      resize: vertical;
+      font-size: 16px;
     }
 
-    .poem {
-      font-size: 1.4em;
-      font-style: italic;
-      color: #444;
-      margin: 30px 0;
-      text-align: left;
-      padding: 20px;
-      background-color: #f3e5f5;
+    button {
+      display: block;
+      margin: 20px auto 0;
+      background: #c2185b;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
       border-radius: 10px;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
     }
 
-    .signature {
+    button:hover {
+      background: #ad1457;
+    }
+
+    footer {
+      text-align: center;
       margin-top: 30px;
-      font-style: italic;
-      color: #555;
+      font-size: 14px;
+      color: #777;
     }
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       .container {
-        margin: 20px;
-      }
-
-      h1 {
-        font-size: 2em;
+        padding: 15px;
       }
 
       p {
-        font-size: 1em;
-      }
-
-      .image-container {
-        flex-direction: column;
-        gap: 10px;
+        font-size: 16px;
       }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="cake">🎂</div>
-    <h1>Happy Birthday Aanya! 💖</h1>
-    <h2>Wishing you endless smiles, joy & magic ✨</h2>
-    
-    <div class="image-container">
-      <!-- Replace the image sources with the correct paths -->
-      <img src="aanya_image.jpg" alt="Aanya's Image 1" />
-      <img src="birthday_poem.jpg" alt="Poem Image" />
-    </div>
-
+    <h1>Hi Radhika 🌸</h1>
     <p>
-      On this beautiful day, the world was gifted someone as wonderful as you.  
-      I hope this birthday brings you laughter, love, and everything your heart dreams of.  
-      You're a gem, Aanya, and you deserve the brightest days ahead!
+      I've always wondered why you push me away, even when all I want is to love you without expectations. I see pain in your eyes, and I wish you’d tell me what’s hurting you. Maybe I can’t fix it, but I can be there for you — fully, deeply, and unconditionally.
     </p>
-    
-    <div class="poem">
-      <p>🎶 **A Poem Just for You:** 🎶</p>
-      <p>
-        On this special day, I want to say, <br>
-        Happy Birthday, Aanya, in every way! <br>
-        May your life be filled with joy and cheer, <br>
-        With moments so precious, year after year. <br><br>
-        
-        Through every laughter and every tear, <br>
-        May love and happiness always be near. <br>
-        You're a star, so bright and true, <br>
-        A gift to the world, and to all who know you. <br><br>
-        
-        Have the happiest birthday, full of grace, <br>
-        May your journey ahead be a sweet embrace. ❤️
-      </p>
-    </div>
+    <p>
+      If there's a reason why you hesitate, or something holding you back… please share it here. I want to understand, not just love.
+    </p>
 
-    <p class="signature">
-      — With love and warmth, Vansh 🌸
-    </p>
+    <form action="mailto:vansh.sharma111105@gmail.com" method="POST" enctype="text/plain">
+      <label for="message">Your thoughts, your pain, your reasons — anything you want to say:</label>
+      <textarea name="message" rows="6" placeholder="Type your message here..."></textarea>
+      <button type="submit">Send to Vansh 💌</button>
+    </form>
+
+    <footer>
+      From someone who truly cares — Vansh ❤️
+    </footer>
   </div>
 </body>
 </html>
